@@ -1,4 +1,4 @@
-$url="https://aamirhsn-pwsh.s3.amazonaws.com/powershell-yaml.zip"
+$url="[Module download link]"
 New-Item -ItemType Directory -Force -Path 'C:\temp'
 New-Item -ItemType Directory -Force -Path 'C:\temp\powershell-yaml'
 Invoke-WebRequest $url -Outfile C:\temp\powershell-yaml.zip
